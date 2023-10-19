@@ -1,0 +1,54 @@
+@media (min-width: 576px) {
+    body {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      /* justify-content: space-evenly; */
+      background-color: white;
+      }
+    
+      header{
+        background-color: teal;
+        color: white;
+        /* grid-column: 2/3;
+        grid-row: 1/2; */
+        grid-column-start: 1;
+        grid-row-start: 1;
+        height: 200pt;
+        text-align: center;
+      }
+    
+      .Title1 {
+      border-top: 30px solid lightblue;
+      color: black;
+      grid-column-start: 1;
+      grid-row-start: 2;
+      width: 150pt;
+      margin: 20pt;
+      text-align: center;
+      justify-self: center;
+      }
+    
+      .Title2 {
+      border-top: 30px solid orangered;
+      color: black;
+      grid-column-start: 1;
+      grid-row-start: 3;
+      width: 150pt;
+      margin: -10pt;
+      text-align: center;
+      justify-self: center;
+      }
+        
+      .Title3 {
+      border-top: 30px solid teal;
+      color: black;
+      grid-column-start: 1;
+      grid-row-start: 4;
+      width: 150pt;
+      margin: -10pt;
+      text-align: center;
+      justify-self: center;
+      }
+    } 
+    
